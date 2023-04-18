@@ -1,0 +1,103 @@
+body{
+   
+    background-color:rgb(6, 51, 69);
+}
+nav{
+    /* margin: 60px; */
+    display: flex;
+    width: 100%;
+    /* background-color: bisque; */
+    
+}
+nav h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(184, 247, 120);
+    /* width: 150px; */
+}
+nav button{
+    margin-left: 80%;
+    height: 30px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 6px;
+    color: rgb(13, 179, 191);
+    
+}
+
+.quote{
+    /* width: 40%; */
+    background-color: rgb(42, 116, 133);
+    /* border: 2px solid black; */
+    text-align: center;
+    justify-content: center;
+    height: 350px;
+    border-radius: 5px;
+    margin-left: 100px;
+    /* margin-bottom: 20px; */
+    width: 82%;
+    position: absolute;
+    /* border-radius: 10px ; */
+
+}
+#quot{
+    font-size: 30px;
+    /* margin: 50px; */
+    color: rgb(25, 1, 48);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* #quot::before, */
+/* #quot::after */
+#quot::before{
+  content: '\275D';
+  font-size: 3rem;
+  color: darkgoldenrod;
+
+}
+#quot::after{
+    color: darkgoldenrod;
+    content: '\275E';
+    font-size: 3rem;
+}
+#author{
+    font-size: large;
+}
+.btns{
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding-top: 280px;
+    /* z-index: -1; */
+
+}
+
+.bot{
+    text-align: center;
+    background-color: rgb(42, 116, 133);
+    width: 82%;
+    justify-content: center;
+    margin-left: 8.4%;
+}
+ h1{
+    /* color: rgb(184, 247, 120); */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.butt{
+    padding-bottom: 10px;
+}
+
+.butt button{
+    margin: 20px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(139, 197, 197);
+}
+footer{
+    color: white;
+    text-align: center;
+}
